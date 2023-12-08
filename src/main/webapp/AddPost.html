@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="AddPost.css">
+<title>Insert title here</title>
+</head>
+<body>
+	<div class="maindiv">
+      <div class="navDiv">
+      <ul>
+        <li> <a href="FarmerProfile.jsp"> Back </a>  </li>
+        <li> <a href="#"> Create Your Post </a>  </li>
+      </ul>
+    </div>
+      <div class="formdiv">
+        
+          <form action="addPost" method="post" class="form">
+            <div class="img">
+
+            </div>
+            <div class="formdiv1">
+              <label >Product Name: </label>
+            <input type="text" name="name" placeholder="Enter name" required> <br><br>
+    
+            <label>Product Quantity: </label> 
+            <input type="number" name="quantity"  placeholder="Enter quantity" required> <br><br>
+    
+            <label>Product Price: </label> 
+            <input type="number" name="price" placeholder="Enter price" required> <br><br>
+    
+            <label>Product Description: </label> 
+            <textarea name="description" placeholder=" Enter Description">
+
+            </textarea><br><br>
+    
+            <button type="submit" class="btn1">Post</button>
+            <button class="btn2" type="reset">Cancle</button>
+            </div>
+          </form>
+      </div>
+
+    </div>
+    
+
+</body>
+</html>
